@@ -1,0 +1,15 @@
+{
+  "name": "cnmc-frontend",
+  "version": "1.0.0",
+  "description": "This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "elm-live -s public/storybook.html src/Ui/Storybook.elm -- --output=.storybook/main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
